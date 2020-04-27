@@ -1,0 +1,28 @@
+version: '2.2'
+
+services:
+  logstash:
+    image: lgcns-logstash:latest
+    container_name: logstash
+    command: ./bin/logstash -f /usr/share/logstash/config/logstash.conf
+    ports:
+      - 5044:5044
+      - 9600:9600
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.2.0
+    container_name: elasticsearch
+    environment:
+      - node.name=elasticsearch
+      - cluster.initial_master_nodes=elasticsearch
+    ports:
+      - 9200:9200
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.2.0
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_URL: http://10.81.132.229:9200
+      ELASTICSEARCH_REQUESTTIMEOUT: 60000
+    ports:
+      - 5601:5601

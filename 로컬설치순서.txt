@@ -1,0 +1,18 @@
+﻿1. Node.js 설치
+
+2. Visual Studio 설치
+
+3. python 2.7 설치 
+ - path 설정 자동으로 되는지 확인. 안되면 추가
+ - 설치 후 재부팅 필수
+
+4. Oracle Instant Client
+  1) Basic, SDK 압축 풀기. 하나의 폴더에 넣어두기
+   ex) C:\Program Files\instantclient_19_3
+ 2) 환경변수 설정
+  - Path --> C:\Program Files\instantclient_19_3
+  - 시스템변수 > 새로만들기
+  	- OCL_INC_DIR --> C:\Program Files\instantclient_19_3\sdk\include
+	- OCL_LIB_DIR --> C:\Program Files\instantclient_19_3\sdk\lib\msvc
+
+5.MongoDB 설치
