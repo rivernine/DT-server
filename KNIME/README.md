@@ -38,7 +38,7 @@
 
 ## 1.2. Server에서 제공하는 서비스/가격
 
-![Price](./server_pricing.jpg)
+![Price](./server_pricing.JPG)
 
 ![Small price](./server_pricing_small.JPG)
 
