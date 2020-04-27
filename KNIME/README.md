@@ -40,7 +40,7 @@
 
 ![Price](./server_pricing.JPG)
 
-![Small price](./server_pricing_small.JPG)
+![Small price](./server_pricing_small.jpg)
 
 - 약 1800만원/년
 
