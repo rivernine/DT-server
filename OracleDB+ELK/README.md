@@ -137,11 +137,11 @@ cd C:\Users\VR\elk
 ## **5. 결과**
 > InputData
 >
-> ![캡쳐1](./image1.jpg)
+> ![캡쳐1](./image1.JPG)
 >
 > Dashboard
 >
-> ![캡쳐2](./image2.jpg)
+> ![캡쳐2](./image2.JPG)
 
 ## **기타**
 
