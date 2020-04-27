@@ -14,6 +14,6 @@
 
  * 로컬PC(VM)에 ELK Stack이 깔려있어서 로컬로 진행했습니다.
    
-   판토스 OracleDB(10.81.132.229:1521/xe)를 연결했고 첨부파일 내용을 query했습니다. 
+   판토스 OracleDB를 연결했고 첨부파일 내용을 query했습니다. 
 
 ![daily](./daily.JPG)
